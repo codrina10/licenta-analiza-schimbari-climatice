@@ -50,7 +50,29 @@ Relația dintre îngrășăminte și randamentul cerealelor
 ---
 3. Statistică
 Teste de corelație Spearman (RQ1, RQ3, RQ5-RQ7, RQ9-RQ10), teste Kruskal-Wallis (RQ2, RQ4, RQ8) și modele de regresie liniară multiplă (RQ11-RQ16).
-(Graficele acestei secțiuni vor fi adăugate aici.)
+RQ1: Corelație între an și media temperaturii
+![RQ1 - an vs temperatura](figures/fig_rq1_an_vs_temp.png)
+![RQ1b - an vs diferenta de temperatura](figures/fig_rq1b_an_vs_diff_temp.png)
+RQ2: Diferențe între regiuni privind variația temperaturii medii anuale
+![RQ2 - regiune vs diferenta de temperatura](figures/fig_rq2_regiune_vs_diff_temp.png)
+RQ3: Corelație între emisiile anuale de CO2 și media temperaturii
+![RQ3 - CO2 vs temperatura](figures/fig_rq3_co2_vs_temp.png)
+RQ4: Diferențe între regiuni privind emisiile de CO2 per capita
+![RQ4 - regiune vs CO2 per capita](figures/fig_rq4_regiune_vs_co2_per_capita.png)
+RQ5: Corelație între concentrația atmosferică de CO2 și media temperaturii
+![RQ5 - concentratie CO2 vs temperatura](figures/fig_rq5_co2_concentratie_vs_temp.png)
+RQ6: Corelație între utilizarea îngrășămintelor și randamentul cerealelor
+![RQ6 - ingrasaminte vs randament](figures/fig_rq6_ingrasaminte_vs_randament.png)
+RQ7: Corelație între creșterea PIB și creșterea emisiilor de CO2
+![RQ7 - PIB vs cresterea CO2](figures/fig_rq7_pib_vs_co2_growth.png)
+RQ8: Diferențe între regiuni privind energia regenerabilă
+![RQ8 - regiune vs energie regenerabila](figures/fig_rq8_regiune_vs_renewable.png)
+RQ9: Corelație între taxele ecologice și emisiile de CO2 per capita
+![RQ9 - taxe ecologice vs CO2 per capita](figures/fig_rq9_env_tax_vs_co2_per_capita.png)
+RQ10: Corelație între cheltuielile de mediu și emisiile de CO2 per capita
+![RQ10 - cheltuieli mediu vs CO2 per capita](figures/fig_rq10_expenditure_vs_co2_per_capita.png)
+RQ11-RQ16: Modele de regresie liniară multiplă
+Modelele de regresie (concentrație CO2 + utilizarea terenului asupra temperaturii, PIB + combustibili fosili asupra emisiilor per capita, îngrășăminte + suprafață cultivată asupra randamentului, politici de mediu asupra emisiilor totale, și modelele complete la nivel regional/de țară) sunt construite cu `lm()` și interpretate direct în comentariile scriptului `3_statistica.R`.
 ---
 4. Interogări SQL
 Interogări SQL (PostgreSQL) pentru agregări pe an, regiune și decadă, cu vizualizare în R.
