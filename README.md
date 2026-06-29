@@ -76,7 +76,16 @@ Modelele de regresie (concentrație CO2 + utilizarea terenului asupra temperatur
 ---
 4. Interogări SQL
 Interogări SQL (PostgreSQL) pentru agregări pe an, regiune și decadă, cu vizualizare în R.
-(Graficele acestei secțiuni vor fi adăugate aici.)
+Interogarea 1: Media temperaturii globale pe an
+![Evolutia temperaturii globale](figures/fig_sql1_evolutie_temp_globala.png)
+Interogarea 2: Media emisiilor de CO2 per capita pe regiune
+![CO2 per capita pe regiuni](figures/fig_sql2_co2_per_capita_regiuni.png)
+Interogarea 3: Top 10 țări cu cele mai mari emisii de CO2 per capita
+![Top 10 tari CO2](figures/fig_sql3_top10_tari_co2.png)
+Interogarea 4: Evoluția temperaturii și concentrației de CO2 pe decade
+![Temperatura si CO2 pe decade](figures/fig_sql4_temp_si_co2_pe_decade.png)
+Interogarea 5: Politici de mediu și emisii CO2 pe regiuni (2000-2025)
+![Politici de mediu pe regiuni](figures/fig_sql6_politici_mediu_regiuni.png)
 ---
 Tehnologii folosite
 R: tidyverse, DataExplorer, inspectdf, corrplot, ggstatsplot, broom, RPostgres
