@@ -74,12 +74,12 @@ View(top10_co2)
 # 4. Evolutia concentratiei de CO2 pe decade
 co2_decade <- dbGetQuery(con, "
   SELECT 
-    (year / 10) * 10 AS decada,
+    (CAST(year AS INTEGER) / 10) * 10 AS decada,
     ROUND(AVG(annual_co2_concentration)::numeric, 2) AS media_concentratie_co2,
     ROUND(AVG(avg_temp)::numeric, 2) AS media_temperatura
   FROM df_clean
   WHERE annual_co2_concentration IS NOT NULL
-  GROUP BY (year / 10) * 10
+  GROUP BY (CAST(year AS INTEGER) / 10) * 10
   ORDER BY decada
 ")
 View(co2_decade)
