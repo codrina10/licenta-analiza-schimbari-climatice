@@ -20,7 +20,7 @@ Valori lipsă
 ![Valori lipsa - DataExplorer](figures/fig_missing_valori.png)
 ![Valori lipsa - inspectdf](figures/fig_missing_valori_inspectdf.png)
 Distribuția variabilelor categoriale
-![Distributia variabilelor categoriale](figures/fig_categoriale_bar.png)
+![Distributia variabilelor categoriale](figures/fig_categoriale_bar_1.png)
 ![Dezechilibru variabile categoriale](figures/fig_categoriale_imbalance.png)
 Distribuția variabilelor numerice
 Temperatură
@@ -85,7 +85,7 @@ Interogarea 3: Top 10 țări cu cele mai mari emisii de CO2 per capita
 Interogarea 4: Evoluția temperaturii și concentrației de CO2 pe decade
 ![Temperatura si CO2 pe decade](figures/fig_sql4_temp_si_co2_pe_decade.png)
 Interogarea 5: Politici de mediu și emisii CO2 pe regiuni (2000-2025)
-![Politici de mediu pe regiuni](figures/fig_sql6_politici_mediu_regiuni.png)
+![Politici de mediu pe regiuni](figures/fig_sql5_politici_mediu_regiuni.png)
 ---
 Tehnologii folosite
 R: tidyverse, DataExplorer, inspectdf, corrplot, ggstatsplot, broom, RPostgres
