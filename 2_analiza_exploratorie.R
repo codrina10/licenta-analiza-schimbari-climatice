@@ -71,7 +71,6 @@ dev.off()
 # daca ar fi inclus, ar produce un grafic ilizibil cu o bara pentru fiecare an
 DataExplorer::plot_bar(df_clean |> select(-year))
 png("fig_categoriale_bar.png", width = 20, height = 15, units = "cm", res = 300)
-DataExplorer::plot_bar(df_clean |> select(-year))
 dev.off()
 
 # Varianta alternativa - arata si variabila predominanta per coloana
