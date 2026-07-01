@@ -20,7 +20,7 @@ Valori lipsă
 ![Valori lipsa - DataExplorer](figures/fig_missing_valori.png)
 ![Valori lipsa - inspectdf](figures/fig_missing_valori_inspectdf.png)
 Distribuția variabilelor categoriale
-![Distributia variabilelor categoriale](figures/fig_categoriale_bar_1.png)
+![Distributia variabilelor categoriale](figures/fig_categoriale_bar_1.jpeg)
 ![Dezechilibru variabile categoriale](figures/fig_categoriale_imbalance.png)
 Distribuția variabilelor numerice
 Temperatură
